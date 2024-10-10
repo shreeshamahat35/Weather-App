@@ -1,0 +1,97 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* Background Animation */
+.background-container {
+    background: linear-gradient(135deg, #368257 0%, #0072ff 100%);
+    background-size: 400% 400%;
+    animation: backgroundMove 10s ease infinite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* App Title */
+.app-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Input Styles */
+input {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border: none;
+    background-color: hsla(1, 62%, 49%, 0.3);
+    color: rgb(157, 40, 40);
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: none;
+    background-color: #ff7e5f;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff5e7e;
+}
+
+/* Glassmorphism Cards */
+.weather-card {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    color: white;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.weather-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Icon and Info Styling */
+.weather-icon {
+    font-size: 50px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+#temperature {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#description {
+    font-size: 1.1rem;
+    color: #ddd;
+}
+
+/* Animating the background */
+@keyframes backgroundMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
