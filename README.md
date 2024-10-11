@@ -24,3 +24,7 @@ A sleek and responsive weather app that allows users to check the weather for an
 Here is how the  Weather App looks:
 
 ![Weather App Main Interface](images/firstiamge.png)
+
+
+
+![Weather Cards Display](images/secondimage.png)
