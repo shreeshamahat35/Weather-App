@@ -17,3 +17,10 @@ A sleek and responsive weather app that allows users to check the weather for an
 - **Bootstrap**: Makes the app responsive and modern with minimal effort.
 - **FontAwesome**: Provides icons for different weather conditions.
 - **OpenWeatherMap API**: Fetches real-time weather data based on user input.
+
+
+## Screenshots
+
+Here is how the  Weather App looks:
+
+![Weather App Main Interface](images/firstiamge.png)
